@@ -1,0 +1,27 @@
+1. REPL : adalah singkatan dari "Read-Eval-Print Loop". Ini adalah sebuah lingkungan interaktif yang memungkinkan Anda untuk 
+mengevaluasi ekspresi atau perintah dalam bahasa pemrograman JavaScript secara langsung dan segera melihat hasilnya.
+contoh : ketik 'node' dicommand lalu console.log
+
+2. module system : module system adalah module yang kita buat sendiri
+contoh : module.exports = {
+// key(bebas)  //value(sesuai)
+  key : object,
+  key : variable,
+  key : function,
+  key : class
+  jika nama key dan value nya sama bisa di tuliskan satu saja
+  contoh : nama
+};
+untuk import : tinggal => const variable = require('nama file js');
+
+3. core module : adalah module dari bawaan node
+contoh module file system : 
+const fs = require("fs");
+
+4. NPM module : module dari npm yang akan kita gunakan
+cara nya : 
+- npm init (untuk inisilisasi project) saat versi ada code => version 1.2.3 (1:major update, 2:minor update, 3. patch)
+- npm install <package name> package bisa di cari di : https://www.npmjs.com/
+- npm --save-dev <package name> untuk menyimpan module dalam project kita bukan global 
+untuk menjalankan key script : npm <key command> atau jika ingin menambah key bukan bawaan => npm run <key command>
+

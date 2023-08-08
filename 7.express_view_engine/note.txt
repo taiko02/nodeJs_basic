@@ -1,0 +1,7 @@
+cara penggunaan view engine :
+-set terlebih dahulu
+app.set("view engine", "ejs");
+
+penting : semua view harus di simpan dalam folder "views"
+
+-lalu ubah nama file contoh: index.html -> index.ejs

@@ -1,0 +1,8 @@
+- middleware adalah : sebuah fungsi yang memiliki akses ke object (req),object response(res), dan
+fungsi middleware berikutnya
+
+express itu sendiri merupakan serangkaian pemanggilan fungsi middleware
+
+- user-defined middleware : middleware yang buat oleh user itu sendiri
+- built-in middleware : sudah tertanam dalam express
+- third party middleware : middleware buatan orang lain

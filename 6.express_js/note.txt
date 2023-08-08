@@ -1,0 +1,23 @@
+express adalah 
+- web app framework yang dibuat diatas node js
+- menyediakan antar muka yang minimal untuk kakas yang di perlukan dalam membuat sebuah web aplikasi
+- membantu aliran data dari server ke dalam aplikasi
+- biasanya digunakan untuk MERN atau lainnya
+
+fitur:
+- menangani request dengan HTTP dengan mudah(routes)
+- MVC (Model-View-Controller)
+- terintergrasi dengan view rendering engine untuk mengelola template (contoh di laravel ada blade)
+- middleware 
+
+expressjs itu sendiri unopinionated
+- unopinionated artinya : tidak ada aturan yang baku untuk membuat sesuatu
+- menentukan sendiri sturktur aplikasi 
+- bongkar pasang middleware 
+
+req dan res (request & response) :
+req adalah : apa yang di kirimkan ke express nya
+res adalah : apa yang di kembalikan express ketika kita mentargetkan path atau halaman tertentu  
+
+
+dokumentasi ada di : https://expressjs.com/

@@ -1,0 +1,2 @@
+folder public harus dibuat jika ingin menggunakan file external
+dan digunakan pada express.static
